@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Resourcery.Projects": {
+      "path": "Resourcery.Projects.abpmdl.json"
+    }
+  }
+}

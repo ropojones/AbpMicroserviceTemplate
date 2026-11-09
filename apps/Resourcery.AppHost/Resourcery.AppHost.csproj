@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsAspireHost>true</IsAspireHost>
+        <UserSecretsId>0aae16e2-bc34-40f6-b9c4-10379cc46b10</UserSecretsId>
+    </PropertyGroup>
+
+    <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+        <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="9.0.0" />
+        <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="9.0.0" />
+        <PackageReference Include="Aspire.Hosting.Redis" Version="9.0.0" />
+        <PackageReference Include="Aspire.Hosting.Seq" Version="9.0.0" />
+        <PackageReference Include="IdentityModel" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\apps\Resourcery.AuthServer\Resourcery.AuthServer.csproj" />
+        <ProjectReference Include="..\..\gateway\Resourcery.Gateway\Resourcery.Gateway.csproj" />
+        <ProjectReference Include="..\..\services\administration\host\Resourcery.Administration.HttpApi.Host\Resourcery.Administration.HttpApi.Host.csproj" />
+        <ProjectReference Include="..\..\services\identity\host\Resourcery.IdentityService.HttpApi.Host\Resourcery.IdentityService.HttpApi.Host.csproj" />
+        <ProjectReference Include="..\..\services\projects\host\Resourcery.Projects.HttpApi.Host\Resourcery.Projects.HttpApi.Host.csproj" />
+        <ProjectReference Include="..\..\services\saas\host\Resourcery.SaaS.HttpApi.Host\Resourcery.SaaS.HttpApi.Host.csproj" />
+        <ProjectReference Include="..\Resourcery.WebApp\src\Resourcery.WebApp.Blazor\Resourcery.WebApp.Blazor.csproj" />
+        <ProjectReference Include="..\..\shared\Resourcery.DbMigrator\Resourcery.DbMigrator.csproj" />
+        <ProjectReference Include="..\..\shared\Resourcery.Shared\Resourcery.Shared.csproj" IsAspireProjectResource="false" />
+    </ItemGroup>
+
+</Project>

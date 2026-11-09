@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Resourcery.IdentityService": {
+      "path": "Resourcery.IdentityService.abpmdl.json"
+    }
+  }
+}

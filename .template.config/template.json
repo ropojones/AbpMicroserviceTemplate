@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Oluropo Akinbolade-Jones",
+  "classifications": [
+    "ABP",
+    "Microservice",
+    "Web",
+    "Web API",
+    "ASP.NET",
+    "Angular",
+    "Blazor"
+  ],
+  "identity": "AbpMicroserviceTemplate",
+  "name": "ABP Microservice Template",
+  "shortName": "abp-microservice",
+  "sourceName": "Resourcery",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "modifiers": [
+        {
+          "exclude": [
+            ".template.config/**",
+            ".vs/**",
+            ".git/**",
+            ".github/**",
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.user",
+            "**/.vs/**",
+            "services/projects/**"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This is a microservice template based on the ABP framework with Angular and Blazor frontends."
+}

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Resourcery.SaaS": {
+      "path": "Resourcery.SaaS.abpmdl.json"
+    }
+  }
+}

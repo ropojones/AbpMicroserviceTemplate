@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>Resourcery.SaaS</RootNamespace>
+        <PreserveCompilationReferences>true</PreserveCompilationReferences>
+        <UserSecretsId>Resourcery.SaaS-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..\..\..</DockerfileContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+        <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="10.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\shared\Resourcery.Microservice.Shared\Resourcery.Microservice.Shared.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\Resourcery.ServiceDefaults\Resourcery.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\..\..\administration\src\Resourcery.Administration.EntityFrameworkCore\Resourcery.Administration.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\src\Resourcery.SaaS.HttpApi\Resourcery.SaaS.HttpApi.csproj" />
+        <ProjectReference Include="..\..\src\Resourcery.SaaS.Application\Resourcery.SaaS.Application.csproj" />
+        <ProjectReference Include="..\..\src\Resourcery.SaaS.EntityFrameworkCore\Resourcery.SaaS.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Resourcery.SaaS.Domain.Shared": {
+      "path": "src/Resourcery.SaaS.Domain.Shared/Resourcery.SaaS.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.Domain": {
+      "path": "src/Resourcery.SaaS.Domain/Resourcery.SaaS.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.Application.Contracts": {
+      "path": "src/Resourcery.SaaS.Application.Contracts/Resourcery.SaaS.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.Application": {
+      "path": "src/Resourcery.SaaS.Application/Resourcery.SaaS.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.EntityFrameworkCore": {
+      "path": "src/Resourcery.SaaS.EntityFrameworkCore/Resourcery.SaaS.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.MongoDB": {
+      "path": "src/Resourcery.SaaS.MongoDB/Resourcery.SaaS.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.HttpApi": {
+      "path": "src/Resourcery.SaaS.HttpApi/Resourcery.SaaS.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.HttpApi.Client": {
+      "path": "src/Resourcery.SaaS.HttpApi.Client/Resourcery.SaaS.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.SaaS.TestBase": {
+      "path": "test/Resourcery.SaaS.TestBase/Resourcery.SaaS.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.SaaS.EntityFrameworkCore.Tests": {
+      "path": "test/Resourcery.SaaS.EntityFrameworkCore.Tests/Resourcery.SaaS.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.SaaS.MongoDB.Tests": {
+      "path": "test/Resourcery.SaaS.MongoDB.Tests/Resourcery.SaaS.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.SaaS.Domain.Tests": {
+      "path": "test/Resourcery.SaaS.Domain.Tests/Resourcery.SaaS.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.SaaS.Application.Tests": {
+      "path": "test/Resourcery.SaaS.Application.Tests/Resourcery.SaaS.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.SaaS.HttpApi.Host": {
+      "path": "host/Resourcery.SaaS.HttpApi.Host/Resourcery.SaaS.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Resourcery.SaaS.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Resourcery.SaaS.HttpApi.Client.ConsoleTestApp/Resourcery.SaaS.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.SaaS.IdentityServer": {
+      "path": "host/Resourcery.SaaS.IdentityServer/Resourcery.SaaS.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Resourcery.SaaS.Host.Shared": {
+      "path": "host/Resourcery.SaaS.Host.Shared/Resourcery.SaaS.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
